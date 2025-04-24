@@ -89,8 +89,8 @@ const Weather = () => {
                 <span>wind speed</span>
             </div>
         </div>
-        
       </div>
+      <button id="install-button">Install</button>
     </div>
   )
 }

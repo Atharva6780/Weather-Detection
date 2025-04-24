@@ -77,3 +77,37 @@ input {
     display: block;
     font-size: 16px;
 }
+
+#install-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 1px 2px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px; /* Adds space between the button and weather data */
+    text-align: center;
+  }
+  
+  #install-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  #install-button:active {
+    background-color: #004085;
+    transform: translateY(0);
+  }
+  
+  #install-button:focus {
+    outline: none;
+  }
+  
+  #install-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
